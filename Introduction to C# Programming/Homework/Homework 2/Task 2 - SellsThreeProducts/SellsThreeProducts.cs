@@ -1,8 +1,8 @@
 ﻿// Task 2: A website sells three products whose retail prices are as follows:
 //         Product 1, $2.98; product 2, $4.50; and product 3, $9.98.
 //         Write an application that reads a series of pairs of numbers as follows:
-//              a) product number
-//              b) quantity sold
+//             a) product number
+//             b) quantity sold
 //         Your application should use a switch statement to determine the retail price
 //         for each product. It should calculate and display the total retail value
 //         of all products sold. Use a sentinel-controlled loop to determine when
