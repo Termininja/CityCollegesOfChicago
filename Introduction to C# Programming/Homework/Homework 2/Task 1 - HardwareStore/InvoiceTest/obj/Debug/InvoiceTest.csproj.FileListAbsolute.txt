@@ -1,5 +1,0 @@
-C:\Users\Administrator\Desktop\HardwareStore\InvoiceTest\bin\Debug\InvoiceTest.exe
-C:\Users\Administrator\Desktop\HardwareStore\InvoiceTest\bin\Debug\InvoiceTest.pdb
-C:\Users\Administrator\Desktop\HardwareStore\InvoiceTest\obj\Debug\InvoiceTest.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\HardwareStore\InvoiceTest\obj\Debug\InvoiceTest.exe
-C:\Users\Administrator\Desktop\HardwareStore\InvoiceTest\obj\Debug\InvoiceTest.pdb
