@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\LAB3\Excercise2\bin\Debug\Excercise2.exe
+C:\Users\Administrator\Desktop\LAB3\Excercise2\bin\Debug\Excercise2.pdb
+C:\Users\Administrator\Desktop\LAB3\Excercise2\obj\Debug\Excercise2.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LAB3\Excercise2\obj\Debug\Excercise2.exe
+C:\Users\Administrator\Desktop\LAB3\Excercise2\obj\Debug\Excercise2.pdb
+C:\Users\Administrator\Desktop\ICO\LAB3\Excercise2\obj\Debug\Excercise2.exe
+C:\Users\Administrator\Desktop\ICO\LAB3\Excercise2\obj\Debug\Excercise2.pdb
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 3\Excercise2\obj\Debug\Excercise2.exe
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 3\Excercise2\obj\Debug\Excercise2.pdb
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 3\Excercise2\bin\Debug\Excercise2.exe
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 3\Excercise2\bin\Debug\Excercise2.pdb
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 3\Excercise2\obj\Debug\Excercise2.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CIS 142 - Introduction to C# Programming\LAB\LAB 3\Excercise2\obj\Debug\Excercise2.exe
+C:\Users\Administrator\Desktop\CIS 142 - Introduction to C# Programming\LAB\LAB 3\Excercise2\obj\Debug\Excercise2.pdb

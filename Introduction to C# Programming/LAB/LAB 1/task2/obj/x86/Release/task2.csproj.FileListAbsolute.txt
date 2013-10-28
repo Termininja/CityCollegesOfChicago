@@ -1,0 +1,10 @@
+C:\Users\Hristo\Documents\Visual Studio 2010\Projects\Lab-1\task2\bin\Release\task2.exe
+C:\Users\Hristo\Documents\Visual Studio 2010\Projects\Lab-1\task2\bin\Release\task2.pdb
+C:\Users\Hristo\Documents\Visual Studio 2010\Projects\Lab-1\task2\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Hristo\Documents\Visual Studio 2010\Projects\Lab-1\task2\obj\x86\Release\task2.exe
+C:\Users\Hristo\Documents\Visual Studio 2010\Projects\Lab-1\task2\obj\x86\Release\task2.pdb
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 1\task2\obj\x86\Release\task2.exe
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 1\task2\obj\x86\Release\task2.pdb
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 1\task2\bin\Release\task2.exe
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 1\task2\bin\Release\task2.pdb
+C:\Users\Administrator\Documents\GitHub\CCA\CIS 142 - Introduction to C# Programming\LAB\LAB 1\task2\obj\x86\Release\task2.csprojResolveAssemblyReference.cache
