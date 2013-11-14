@@ -1,4 +1,0 @@
-C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesCommissions\bin\Debug\SalesCommissions.exe
-C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesCommissions\bin\Debug\SalesCommissions.pdb
-C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesCommissions\obj\Debug\SalesCommissions.exe
-C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesCommissions\obj\Debug\SalesCommissions.pdb
