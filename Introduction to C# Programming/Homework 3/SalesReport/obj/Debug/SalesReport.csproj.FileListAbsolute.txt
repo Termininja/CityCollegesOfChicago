@@ -1,0 +1,4 @@
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesReport\bin\Debug\SalesReport.exe
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesReport\bin\Debug\SalesReport.pdb
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesReport\obj\Debug\SalesReport.exe
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\SalesReport\obj\Debug\SalesReport.pdb

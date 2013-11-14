@@ -1,0 +1,4 @@
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\Sphere\bin\Debug\Sphere.exe
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\Sphere\bin\Debug\Sphere.pdb
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\Sphere\obj\Debug\Sphere.exe
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\Sphere\obj\Debug\Sphere.pdb

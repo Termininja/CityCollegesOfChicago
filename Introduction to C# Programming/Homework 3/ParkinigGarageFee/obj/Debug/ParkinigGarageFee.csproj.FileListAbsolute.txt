@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\ICO\Homework 3\ParkinigGarageFee\bin\Debug\ParkinigGarageFee.exe
+C:\Users\Administrator\Desktop\ICO\Homework 3\ParkinigGarageFee\bin\Debug\ParkinigGarageFee.pdb
+C:\Users\Administrator\Desktop\ICO\Homework 3\ParkinigGarageFee\obj\Debug\ParkinigGarageFee.exe
+C:\Users\Administrator\Desktop\ICO\Homework 3\ParkinigGarageFee\obj\Debug\ParkinigGarageFee.pdb
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\ParkinigGarageFee\obj\Debug\ParkinigGarageFee.exe
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\ParkinigGarageFee\obj\Debug\ParkinigGarageFee.pdb
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\ParkinigGarageFee\bin\Debug\ParkinigGarageFee.exe
+C:\Users\Administrator\Documents\GitHub\CityCollegesOfChicago\Introduction to C# Programming\Homework 3\ParkinigGarageFee\bin\Debug\ParkinigGarageFee.pdb
