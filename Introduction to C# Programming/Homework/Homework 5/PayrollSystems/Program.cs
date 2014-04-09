@@ -24,20 +24,13 @@ namespace PayrollSystems
         static void Main()
         {
             // Create an array of employees
-            Employee[] employees = new Employee[5];
-
-            SalariedEmployee salariedEmployee = new SalariedEmployee("John", "Smith", "111-11-1111");
-            HourlyEmployee hourlyEmployee = new HourlyEmployee("Karen", "Price", "222-22-2222");
-            CommissionEmployee commissionEmployee = new CommissionEmployee("Sue", "Jones", "333-33-3333");
-            BasePlusCommissionEmployee basePlusCommissionEmployee = new BasePlusCommissionEmployee("Bob", "Lewis", "444-44-4444");
-            PieceWorker pieceWorker = new PieceWorker("Arnold", "Petrov", "555-55-5555", 10, 60);
-
-            employees[0] = salariedEmployee;
-            employees[1] = hourlyEmployee;
-            employees[2] = commissionEmployee;
-            employees[3] = basePlusCommissionEmployee;
-            employees[4] = pieceWorker;
-
+            Employee[] employees = {
+                    new PieceWorker("John", "Smith", "111-11-1111", 14, 20),
+                    new PieceWorker("Karen", "Price", "222-22-2222", 32, 60),
+                    new PieceWorker("Sue", "Jones", "333-33-3333", 48, 65),
+                    new PieceWorker("Bob", "Lewis", "444-44-4444", 24, 30),
+                    new PieceWorker("Yan", "Zheng", "555-55-5555", 12, 60)
+            };
 
             // Print the result
             foreach (Employee employee in employees)

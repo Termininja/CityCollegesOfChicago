@@ -21,7 +21,7 @@ namespace PayrollSystems
         public override string ToString()
         {
             return string.Format(
-                "{0} {1}\nSocial security number: {2}\nEarnings: {3}",
+                "{0} {1}\nSocial security number: {2}\nEarnings: ${3}",
                 FirstName, LastName, SocialSecurityNumber, this.Earnings());
         }
 
