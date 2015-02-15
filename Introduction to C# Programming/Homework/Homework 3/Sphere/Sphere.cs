@@ -11,11 +11,11 @@ class Sphere
 {
     static void Main()
     {
-        // Read the radius of the sphere
+        // Reads the radius of the sphere
         Console.Write("Please, enter the radius: r = ");
         double radius = double.Parse(Console.ReadLine());
 
-        // Print the result
+        // Prints the result
         Console.WriteLine("Sphere volume is: {0:F2}", SphereVolume(radius));
     }
 

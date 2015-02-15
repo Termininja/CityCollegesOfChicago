@@ -23,11 +23,11 @@ class ParkinigGarageFee
         // Addintional fee after 3 hours
         const decimal additionalFee = 0.5m;
 
-        // Read the number of customers
+        // Reads the number of customers
         Console.Write("Please, enter the number of customers: ");
         int numberOfCustomers = int.Parse(Console.ReadLine());
 
-        // Calcualte and print the parking charges for each one customer
+        // Calcualtes and prints the parking charges for each one customer
         decimal totalReceipts = 0;
         for (int i = 0; i < numberOfCustomers; i++)
         {
@@ -35,10 +35,11 @@ class ParkinigGarageFee
             totalReceipts = totalReceipts + charge;
             Console.WriteLine("The current charge is: ${0}", charge);
         }
+
         Console.WriteLine("\nThe total amount of receipts are: ${0}", totalReceipts);
     }
 
-    // Calculate the parking charges
+    // Calculates the parking charges
     static decimal CalculateCharges(decimal fee, decimal additionalFee, int i)
     {
         int hours;
@@ -47,22 +48,33 @@ class ParkinigGarageFee
             Console.Write("Enter the hours of parking per customer {0}: ", i + 1);
             hours = int.Parse(Console.ReadLine());
 
-            if (hours >= 0 && hours <= 24) break;
-            else
+            if (hours < 0 && hours > 24)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Please, enter correct value!");
                 Console.ResetColor();
             }
+            else break;
         }
+
         decimal charge;
-        if (hours > 0 && hours <= 3) charge = fee;
+        if (hours > 0 && hours <= 3)
+        {
+            charge = fee;
+        }
         else if (hours > 3)
         {
             charge = fee + (hours - 3) * additionalFee;
-            if (charge >= 10) charge = 10;
+            if (charge >= 10)
+            {
+                charge = 10;
+            }
         }
-        else charge = 0;
+        else
+        {
+            charge = 0;
+        }
+
         return charge;
     }
 }

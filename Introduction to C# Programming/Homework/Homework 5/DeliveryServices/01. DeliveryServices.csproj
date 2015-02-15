@@ -45,7 +45,7 @@
     <Compile Include="Packages\Package.cs" />
     <Compile Include="Packages\TwoDayPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestApplication.cs" />
+    <Compile Include="DeliveryServices.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

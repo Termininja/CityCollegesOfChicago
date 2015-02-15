@@ -27,10 +27,17 @@ class SellsThreeProducts
 
             switch (numberOfProduct)
             {
-                case 1: finalResult += quantity * 2.98m; break;
-                case 2: finalResult += quantity * 4.5m; break;
-                case 3: finalResult += quantity * 9.98m; break;
-                default: break;
+                case 1:
+                    finalResult += quantity * 2.98m;
+                    break;
+                case 2:
+                    finalResult += quantity * 4.5m;
+                    break;
+                case 3:
+                    finalResult += quantity * 9.98m;
+                    break;
+                default:
+                    break;
             }
 
             Console.ForegroundColor = ConsoleColor.Gray;
@@ -42,10 +49,12 @@ class SellsThreeProducts
                 Console.Write("\b \b");
                 readkey = Console.ReadKey();
             }
+
             if (readkey.Key == ConsoleKey.N) break;
             Console.Write("\b \b");
         }
-        // Prints the result
+
+        // Prints the final result
         Console.WriteLine("\b \bTotal price: {0}", finalResult);
     }
 }

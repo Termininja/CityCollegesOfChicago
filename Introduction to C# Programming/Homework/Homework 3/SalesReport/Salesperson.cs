@@ -1,22 +1,34 @@
-﻿namespace SalesReport
+﻿using System;
+using System.Linq;
+
+public class Salesperson
 {
-    class Salesperson
+    public Salesperson(string name)
     {
-        string NameID2 = "Salesperson 2";
-        string NameID3 = "Salesperson 3";
+        this.Name = name;
+    }
 
-        // Constructor
-        public Salesperson(string id)
-        {
-            this.NameID1 = id;
-        }
+    public string Name { get; set; }
 
-        // Property
-        public string NameID1 { get; set; }
+    public Product[] Products { get; set; }
 
-        public override string ToString()
-        {
-            return string.Format("{0,25} {1,15} {2,15} ", NameID1, NameID2, NameID3);
-        }
+    public void AddProducts(Product[] products)
+    {
+        this.Products = products;
+    }
+
+    public override string ToString()
+    {
+        var result = string.Format("Name: {0}, sales: {1}, total: ${2}", this.Name, this.Products.Length, this.GetTotal());
+
+        return result;
+    }
+
+    private decimal GetTotal()
+    {
+        var total = 0m;
+        this.Products.ToList().ForEach(product => total += product.Price);
+
+        return total;
     }
 }

@@ -1,25 +1,22 @@
 ﻿using System;
 
-namespace PayrollSystems
+class PieceWorker : Employee
 {
-    class PieceWorker : Employee
+    public PieceWorker(string firstName, string lastName, string ssn, decimal wage, int pecies)
+        : base(firstName, lastName, ssn)
     {
-        // Properies
-        public decimal Wage { get; set; }
-        public int Pecies { get; set; }
+        this.Wage = wage;
+        this.Pecies = pecies;
+    }
 
-        // Constructor
-        public PieceWorker(string firstName, string lastName, string ssn, decimal wage, int pecies)
-            : base(firstName, lastName, ssn)
-        {
-            this.Wage = wage;
-            this.Pecies = pecies;
-        }
+    public decimal Wage { get; set; }
 
-        // Method
-        public override decimal Earnings()
-        {
-            return this.Wage * this.Pecies;
-        }
+    public int Pecies { get; set; }
+
+    public override decimal Earnings()
+    {
+        var result = this.Wage * this.Pecies;
+
+        return result;
     }
 }

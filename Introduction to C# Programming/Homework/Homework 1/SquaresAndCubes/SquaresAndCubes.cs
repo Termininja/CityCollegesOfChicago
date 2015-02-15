@@ -8,18 +8,20 @@ class SquaresAndCubes
 {
     static void Main()
     {
-        Console.WriteLine("┌───────┬───────┬───────┐");
-        Console.WriteLine("│Number\t│Square\t│Cube\t│");
-        Console.WriteLine("├───────┼───────┼───────┤");
+        Console.WriteLine("┌───────┬───────┬───────┐\n│Number\t│Square\t│Cube\t│\n├───────┼───────┼───────┤");
 
         for (int n = 0; n <= 10; n++)
         {
-            double Square = Math.Pow(n, 2);     // calculates the squares
-            double Cube = Math.Pow(n, 3);       // calculates the cubes
+            // Calculates the squares
+            double Square = Math.Pow(n, 2);
+
+            // Calculates the cubes
+            double Cube = Math.Pow(n, 3);
 
             // Pints the result
             Console.WriteLine("│" + n + "\t│" + Square + "\t│" + Cube + "\t│");
         }
+
         Console.WriteLine("└───────┴───────┴───────┘");
     }
 }

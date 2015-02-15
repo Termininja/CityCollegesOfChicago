@@ -23,35 +23,37 @@
 
 using System;
 
-namespace SalesReport
+class SalesReport
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            Salesperson[] employees = { new Salesperson("Salesperson 1") };
-            foreach (var element in employees) Console.WriteLine(element);
+        var salesperson1 = new Salesperson("Salesperson 1");
+        var salesperson2 = new Salesperson("Salesperson 2");
+        var salesperson3 = new Salesperson("Salesperson 3");
 
-            Pay1[] pay = { new Pay1() };
-            foreach (var element in pay) Console.WriteLine(element);
+        salesperson1.AddProducts(new Product[] { 
+            new Product1(), new Product1(), new Product1(), 
+            new Product2(),
+            new Product3(), new Product3(),
+            new Product4() 
+        });
 
-            Pay2[] pay2 = { new Pay2() };
-            foreach (var element in pay2) Console.WriteLine(element);
+        salesperson2.AddProducts(new Product[] { 
+            new Product1(), new Product1(), 
+            new Product2(), new Product2(), new Product2(), new Product2(),
+            new Product3(), new Product3(),
+            new Product4(),
+            new Product5(), new Product5(), new Product5()
+        });
 
-            Pay3[] pay3 = { new Pay3() };
-            foreach (var element in pay3) Console.WriteLine(element);
+        salesperson3.AddProducts(new Product[] { 
+            new Product1(), new Product1(), 
+            new Product4(), new Product4(), new Product4(),
+            new Product5()
+        });
 
-            Pay4[] pay4 = { new Pay4() };
-            foreach (var element in pay4) Console.WriteLine(element);
-
-            Pay5[] pay5 = { new Pay5() };
-            foreach (var element in pay5) Console.WriteLine(element);
-
-            Console.Write(new string('─', 58) + "\nTotal");
-            total[] to = { new total() };
-            foreach (var element in to) Console.WriteLine(element);
-
-            Console.ReadKey();
-        }
+        Console.WriteLine(salesperson1);
+        Console.WriteLine(salesperson2);
+        Console.WriteLine(salesperson3);
     }
 }

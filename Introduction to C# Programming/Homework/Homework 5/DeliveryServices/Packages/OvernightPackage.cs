@@ -1,21 +1,17 @@
-﻿namespace DeliveryServices
+﻿public class OvernightPackage : Package
 {
-    class OvernightPackage : Package
+    public OvernightPackage(string name, string address, string city, string state, uint zip, decimal weight, decimal cost, decimal additionalFee)
+        : base(name, address, city, state, zip, weight, cost)
     {
-        // Property
-        public decimal AdditionalFee { get; set; }
+        this.AdditionalFee = additionalFee;
+    }
 
-        // Constructor
-        public OvernightPackage(string name, string address, string city, string state, uint zip, decimal weight, decimal cost, decimal additionalFee)
-            : base(name, address, city, state, zip, weight, cost)
-        {
-            this.AdditionalFee = additionalFee;
-        }
+    public decimal AdditionalFee { get; set; }
 
-        // Redefine the calculated cost
-        public override decimal CalculateCost()
-        {
-            return base.Weight * (base.Cost + this.AdditionalFee);
-        }
+    public override decimal CalculateCost()
+    {
+        var cost = base.Weight * (base.Cost + this.AdditionalFee);
+
+        return cost;
     }
 }

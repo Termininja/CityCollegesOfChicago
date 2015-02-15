@@ -30,28 +30,25 @@
 
 using System;
 
-namespace DeliveryServices
+class DeliveryServices
 {
-    class TestApplication
+    static void Main()
     {
-        static void Main()
+        try
         {
-            try
-            {
-                // Creates objects of each type of Package
-                Package normalPackage = new Package("package1", "11 W Mainstreet", "Chicago", "IL", 606000, 500, 1);
-                TwoDayPackage twoDayPackage = new TwoDayPackage("package2", "21 E Shisharka", "New York", "NY", 546000, 500, 1, 5);
-                OvernightPackage overnightPackage = new OvernightPackage("package3", "37 N Lemon", "Los Angelis", "CA", 345000, 500, 1, 10);
+            // Creates objects of each type of Package
+            var normalPackage = new Package("package1", "11 W Mainstreet", "Chicago", "IL", 606000, 500, 1);
+            var twoDayPackage = new TwoDayPackage("package2", "21 E Shisharka", "New York", "NY", 546000, 500, 1, 5);
+            var overnightPackage = new OvernightPackage("package3", "37 N Lemon", "Los Angelis", "CA", 345000, 500, 1, 10);
 
-                // Tests the method CalculateCost
-                Console.WriteLine("Normal Package: $ " + normalPackage.CalculateCost());
-                Console.WriteLine("TwoDay Package: $ " + twoDayPackage.CalculateCost());
-                Console.WriteLine("Overnight Package: $ " + overnightPackage.CalculateCost());
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            // Tests the method CalculateCost
+            Console.WriteLine("Normal Package: $ " + normalPackage.CalculateCost());
+            Console.WriteLine("TwoDay Package: $ " + twoDayPackage.CalculateCost());
+            Console.WriteLine("Overnight Package: $ " + overnightPackage.CalculateCost());
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
         }
     }
 }

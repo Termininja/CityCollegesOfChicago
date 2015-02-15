@@ -17,28 +17,23 @@
 
 using System;
 
-namespace PayrollSystems
+class PayrollSystems
 {
-    class Program
+    static void Main()
     {
-        static void Main()
+        // Creates an array of employees
+        Employee[] employees = {
+            new PieceWorker("John", "Smith", "111-11-1111", 14, 20),
+            new PieceWorker("Karen", "Price", "222-22-2222", 32, 60),
+            new PieceWorker("Sue", "Jones", "333-33-3333", 48, 65),
+            new PieceWorker("Bob", "Lewis", "444-44-4444", 24, 30),
+            new PieceWorker("Yan", "Zheng", "555-55-5555", 12, 60)
+        };
+
+        // Prints the result
+        foreach (Employee employee in employees)
         {
-            // Create an array of employees
-            Employee[] employees = {
-                    new PieceWorker("John", "Smith", "111-11-1111", 14, 20),
-                    new PieceWorker("Karen", "Price", "222-22-2222", 32, 60),
-                    new PieceWorker("Sue", "Jones", "333-33-3333", 48, 65),
-                    new PieceWorker("Bob", "Lewis", "444-44-4444", 24, 30),
-                    new PieceWorker("Yan", "Zheng", "555-55-5555", 12, 60)
-            };
-
-            // Print the result
-            foreach (Employee employee in employees)
-            {
-                Console.WriteLine("{0}\n", employee);
-            }
-
-            Console.ReadKey();
+            Console.WriteLine("{0}\n", employee);
         }
     }
 }

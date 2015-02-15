@@ -41,10 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\Product2.cs" />
+    <Compile Include="Products\Product3.cs" />
+    <Compile Include="Products\Product4.cs" />
+    <Compile Include="Products\Product5.cs" />
     <Compile Include="Salesperson.cs" />
-    <Compile Include="Slips.cs" />
+    <Compile Include="Products\Product1.cs" />
+    <Compile Include="SalesReport.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

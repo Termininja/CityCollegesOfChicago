@@ -16,29 +16,29 @@
 
 using System;
 
-class Program
+class Account
 {
     static void Main()
     {
-        // Create two saving accounts
+        // Creates two saving accounts
         SavingsAccount saver1 = new SavingsAccount(2000.00m);
         SavingsAccount saver2 = new SavingsAccount(3000.00m);
         Console.WriteLine("Saving balance for 1st saver: ${0}", saver1.SavingsBalance);
         Console.WriteLine("Saving balance for 2nd saver: ${0}", saver2.SavingsBalance);
 
-        // Set annual interest rate to 4%
+        // Sets annual interest rate to 4%
         SavingsAccount.ModifyInterestRate(4);
         Console.WriteLine("\nInterest rate: 4%");
 
-        // Calculate the monthly interest for both savers
+        // Calculates the monthly interest for both savers
         Console.WriteLine("New saving balance for 1st saver: ${0:F}", saver1.CalculateMonthlyInterest());
         Console.WriteLine("New saving balance for 2nd saver: ${0:F}", saver2.CalculateMonthlyInterest());
 
-        // Set annual interest rate to 5%
+        // Sets annual interest rate to 5%
         SavingsAccount.ModifyInterestRate(5);
         Console.WriteLine("\nInterest rate: 5%");
 
-        // Calculate the monthly interest for both savers
+        // Calculates the monthly interest for both savers
         Console.WriteLine("New saving balance for 1st saver: ${0:F}", saver1.CalculateMonthlyInterest());
         Console.WriteLine("New saving balance for 2nd saver: ${0:F}", saver2.CalculateMonthlyInterest());
     }
