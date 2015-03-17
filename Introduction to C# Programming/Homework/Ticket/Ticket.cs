@@ -1,11 +1,13 @@
-﻿// Task 3: Write a program Ticket.cs that will allow the user to enter
-//         actual speed limit, the speed limit at which the offender was travelling,
-//         and the number of previous tickets that person has received.
-//         The application should calculate and display how many miles over the speed limit
-//         the offender was travelling, the cost of the speeding ticket, and court cost.
-//         Use $10.00 as the amount to be charged for each mile per hour over the speed limit.
-//         The court cost should begin at $50.00 and increase by $20.00 for each subsequent
-//         offense up to the third offense (that will represent the maximum court cost).
+﻿/*
+ * Task 3. Write a program Ticket.cs that will allow the user to enter
+ *         actual speed limit, the speed limit at which the offender was travelling,
+ *         and the number of previous tickets that person has received.
+ *         The application should calculate and display how many miles over the speed limit
+ *         the offender was travelling, the cost of the speeding ticket, and court cost.
+ *         Use $10.00 as the amount to be charged for each mile per hour over the speed limit.
+ *         The court cost should begin at $50.00 and increase by $20.00 for each subsequent
+ *         offense up to the third offense (that will represent the maximum court cost).
+ */
 
 using System;
 

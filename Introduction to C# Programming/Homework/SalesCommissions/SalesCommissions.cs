@@ -1,4 +1,5 @@
-﻿/* Task 2. Use a one-dimensional array to solve the following problem: A company
+﻿/*
+ * Task 7. Use a one-dimensional array to solve the following problem: A company
  *         pays its salespeople on a commission basis. The salespeople receive
  *         $200 per week plus 9% of their gross sales for that week. For example,
  *         a salesperson who grosses $5000 in sales in a week receives $200 plus

@@ -1,4 +1,5 @@
-﻿/* Task 1: Create a class called Invoice that a hardware store might use to represent an invoice
+﻿/*
+ * Task 4. Create a class called Invoice that a hardware store might use to represent an invoice
  *         for an item sold at the store. An Invoice should include four pieces of information
  *         as either instance variables or automatic properties—a part number (type string),
  *         a part description (type string), a quantity of the item being purchased (type int)

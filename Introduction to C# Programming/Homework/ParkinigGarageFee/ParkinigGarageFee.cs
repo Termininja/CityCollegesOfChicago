@@ -1,4 +1,5 @@
-﻿/* Task 3. A parking garage charges a $2.00 minimum fee to park for up to three hours.
+﻿/*
+ * Task 8. A parking garage charges a $2.00 minimum fee to park for up to three hours.
  *         The garage charges an additional $0.50 per hour for each hour or part thereof
  *         in excess of three hours. The maximum charge for any given 24-hour period is $10.00.
  *         Assume that no car parks for longer than 24 hours at a time.

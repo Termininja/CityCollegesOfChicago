@@ -1,9 +1,11 @@
-﻿// Task 1. Write a complete C# application to prompt the user for radius
-//         of a sphere, and call method SphereVolume to calculate and
-//         display the volume of the sphere.
-//
-//         Use the following statement:
-//         double volume = ( 4 / 3 ) * Math.PI * Math.Pow( radius, 3 )
+﻿/*
+ * Task 6. Write a complete C# application to prompt the user for radius
+ *         of a sphere, and call method SphereVolume to calculate and
+ *         display the volume of the sphere.
+ *
+ *         Use the following statement:
+ *         double volume = ( 4 / 3 ) * Math.PI * Math.Pow( radius, 3 )
+ */
 
 using System;
 

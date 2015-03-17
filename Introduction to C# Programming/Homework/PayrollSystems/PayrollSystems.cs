@@ -1,18 +1,18 @@
 ﻿/*
- * Modify the payroll system to include an additional Employee derived class,
- * PieceWorker, that represents an employee whose pay is based on the number
- * of pieces of merchandise produced. Class PieceWorker should contain private
- * instance variables wage (to store the employee's wage per piece) and pieces
- * (to store the number of pieces produced).
- * 
- * Provide a concrete implementation of method Earnings in class PieceWorker
- * that calculates the employee's earnings by multiplying the number of pieces
- * produced by the wage per piece.
- * 
- * Create an array of Employee variables to store references to objects of each
- * concrete class in the new Employee hierarchy.
- * 
- * Display each Employee's string representation and earnings.
+ * Task 13. Modify the payroll system to include an additional Employee derived class,
+ *          PieceWorker, that represents an employee whose pay is based on the number
+ *          of pieces of merchandise produced. Class PieceWorker should contain private
+ *          instance variables wage (to store the employee's wage per piece) and pieces
+ *          (to store the number of pieces produced).
+ *          
+ *          Provide a concrete implementation of method Earnings in class PieceWorker
+ *          that calculates the employee's earnings by multiplying the number of pieces
+ *          produced by the wage per piece.
+ *          
+ *          Create an array of Employee variables to store references to objects of each
+ *          concrete class in the new Employee hierarchy.
+ *          
+ *          Display each Employee's string representation and earnings.
  */
 
 using System;
